@@ -3,7 +3,7 @@ import Hero from "../Pages/Hero";
 import Project from "../Pages/Project";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Testimonial from "../Pages/testimonial";
+import Testimonial from "../Pages/Testimonial";
 
 const Layout = () => {
 	return (
