@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito:wght@200;300;400;500&family=Playfair+Display:wght@400;500;600;700;800;900&family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F9FAFF;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    width: 115px;
+    height: 43px;
+    background: #FDC435;
+    border-radius: 8px;
+}
+
+.btn2 {
+    font-family: 'Roboto', sans-serif;
+    width: 115px;
+    height: 43px;
+    border-radius: 8px;
+}
+
+.btn3 {
+    width: 150px;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #25282B;
+    border-radius: 24px;
+}
+
+.wrapper {
+    @apply w-[100%] flex flex-col justify-center items-center;
+}
+
+.contain {
+    @apply w-[93%] md:w-[90%] lg:w-[95%] xl:w-[85%] 2xl:w-[1440px]
+}
+
+.heading {
+    @apply text-[43px] lg:text-[55px] xl:text-[64px]
+}
+
+.title {
+    @apply text-[35px] lg:text-[40px] xl:text-[50px]
+}
+
+.subTitle {
+    @apply text-[28px] lg:text-[33px] xl:text-[43px]
+}
+
+.heroDes {
+    @apply text-[18px] md:text-[20px]
+}
+
+.des {
+    @apply text-[16px] lg:text-[18px]
+}
+
+.a {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 10px;
+}
+
+.splide__pagination__page.is-active {
+    background: #ffb700 !important;
+}
+
+.splide__pagination__page {
+    background: #828282 !important;
+}
